@@ -1,7 +1,7 @@
 {
-  "name": "ls",
-  "version": "0.0.1",
-  "description": "A simple wrapper for OSS putObject api",
+  "name": "react-native-ali-oss",
+  "version": "0.1.0",
+  "description": "A plugin for ali-oss service on react-native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,8 @@
     "url": "git+https://github.com/whtoo/react-native-aliyun-oss.git"
   },
   "keywords": [
-    "React-native",
-    "ali",
-    "oss"
+    "ali-oss",
+    "react-native"
   ],
   "author": "whtoo@qq.com",
   "license": "MIT",
