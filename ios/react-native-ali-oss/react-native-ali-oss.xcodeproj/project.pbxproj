@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E6616A11CEC112B00068E65 /* OSSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6616811CEC112B00068E65 /* OSSClient.m */; };
+		8E6616A21CEC112B00068E65 /* OSSCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6616831CEC112B00068E65 /* OSSCompat.m */; };
+		8E6616A31CEC112B00068E65 /* OSSHttpdns.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6616861CEC112B00068E65 /* OSSHttpdns.m */; };
+		8E6616A41CEC112B00068E65 /* OSSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6616881CEC112B00068E65 /* OSSLog.m */; };
+		8E6616A51CEC112B00068E65 /* OSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E66168A1CEC112B00068E65 /* OSSModel.m */; };
+		8E6616A61CEC112B00068E65 /* OSSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E66168C1CEC112B00068E65 /* OSSNetworking.m */; };
+		8E6616A71CEC112B00068E65 /* OSSBolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6616901CEC112B00068E65 /* OSSBolts.m */; };
+		8E6616A81CEC112B00068E65 /* OSSCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6616921CEC112B00068E65 /* OSSCancellationToken.m */; };
+		8E6616A91CEC112B00068E65 /* OSSCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6616941CEC112B00068E65 /* OSSCancellationTokenRegistration.m */; };
+		8E6616AA1CEC112B00068E65 /* OSSCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6616961CEC112B00068E65 /* OSSCancellationTokenSource.m */; };
+		8E6616AB1CEC112B00068E65 /* OSSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6616981CEC112B00068E65 /* OSSExecutor.m */; };
+		8E6616AC1CEC112B00068E65 /* OSSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E66169A1CEC112B00068E65 /* OSSTask.m */; };
+		8E6616AD1CEC112B00068E65 /* OSSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E66169C1CEC112B00068E65 /* OSSTaskCompletionSource.m */; };
+		8E6616AE1CEC112B00068E65 /* OSSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E66169E1CEC112B00068E65 /* OSSUtil.m */; };
+		8E6616AF1CEC112B00068E65 /* OSSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6616A01CEC112B00068E65 /* OSSXMLDictionary.m */; };
+		8ECDE2121CEB02E000BB8BD5 /* RCTAliyunOSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECDE2111CEB02E000BB8BD5 /* RCTAliyunOSS.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8ECDE20A1CEB02E000BB8BD5 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E6616801CEC112B00068E65 /* OSSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSClient.h; sourceTree = "<group>"; };
+		8E6616811CEC112B00068E65 /* OSSClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSClient.m; sourceTree = "<group>"; };
+		8E6616821CEC112B00068E65 /* OSSCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCompat.h; sourceTree = "<group>"; };
+		8E6616831CEC112B00068E65 /* OSSCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCompat.m; sourceTree = "<group>"; };
+		8E6616841CEC112B00068E65 /* OSSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSDefine.h; sourceTree = "<group>"; };
+		8E6616851CEC112B00068E65 /* OSSHttpdns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSHttpdns.h; sourceTree = "<group>"; };
+		8E6616861CEC112B00068E65 /* OSSHttpdns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSHttpdns.m; sourceTree = "<group>"; };
+		8E6616871CEC112B00068E65 /* OSSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSLog.h; sourceTree = "<group>"; };
+		8E6616881CEC112B00068E65 /* OSSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSLog.m; sourceTree = "<group>"; };
+		8E6616891CEC112B00068E65 /* OSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSModel.h; sourceTree = "<group>"; };
+		8E66168A1CEC112B00068E65 /* OSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSModel.m; sourceTree = "<group>"; };
+		8E66168B1CEC112B00068E65 /* OSSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSNetworking.h; sourceTree = "<group>"; };
+		8E66168C1CEC112B00068E65 /* OSSNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSNetworking.m; sourceTree = "<group>"; };
+		8E66168D1CEC112B00068E65 /* OSSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSService.h; sourceTree = "<group>"; };
+		8E66168F1CEC112B00068E65 /* OSSBolts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSBolts.h; sourceTree = "<group>"; };
+		8E6616901CEC112B00068E65 /* OSSBolts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSBolts.m; sourceTree = "<group>"; };
+		8E6616911CEC112B00068E65 /* OSSCancellationToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCancellationToken.h; sourceTree = "<group>"; };
+		8E6616921CEC112B00068E65 /* OSSCancellationToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCancellationToken.m; sourceTree = "<group>"; };
+		8E6616931CEC112B00068E65 /* OSSCancellationTokenRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		8E6616941CEC112B00068E65 /* OSSCancellationTokenRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		8E6616951CEC112B00068E65 /* OSSCancellationTokenSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCancellationTokenSource.h; sourceTree = "<group>"; };
+		8E6616961CEC112B00068E65 /* OSSCancellationTokenSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCancellationTokenSource.m; sourceTree = "<group>"; };
+		8E6616971CEC112B00068E65 /* OSSExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSExecutor.h; sourceTree = "<group>"; };
+		8E6616981CEC112B00068E65 /* OSSExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSExecutor.m; sourceTree = "<group>"; };
+		8E6616991CEC112B00068E65 /* OSSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTask.h; sourceTree = "<group>"; };
+		8E66169A1CEC112B00068E65 /* OSSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSTask.m; sourceTree = "<group>"; };
+		8E66169B1CEC112B00068E65 /* OSSTaskCompletionSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTaskCompletionSource.h; sourceTree = "<group>"; };
+		8E66169C1CEC112B00068E65 /* OSSTaskCompletionSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSTaskCompletionSource.m; sourceTree = "<group>"; };
+		8E66169D1CEC112B00068E65 /* OSSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSUtil.h; sourceTree = "<group>"; };
+		8E66169E1CEC112B00068E65 /* OSSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSUtil.m; sourceTree = "<group>"; };
+		8E66169F1CEC112B00068E65 /* OSSXMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSXMLDictionary.h; sourceTree = "<group>"; };
+		8E6616A01CEC112B00068E65 /* OSSXMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSXMLDictionary.m; sourceTree = "<group>"; };
+		8ECDE20C1CEB02E000BB8BD5 /* libRCTAliyunOSS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTAliyunOSS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECDE20F1CEB02E000BB8BD5 /* RCTAliyunOSS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTAliyunOSS.h; sourceTree = "<group>"; };
+		8ECDE2111CEB02E000BB8BD5 /* RCTAliyunOSS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTAliyunOSS.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ECDE2091CEB02E000BB8BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E66168E1CEC112B00068E65 /* OSSTask */ = {
+			isa = PBXGroup;
+			children = (
+				8E66168F1CEC112B00068E65 /* OSSBolts.h */,
+				8E6616901CEC112B00068E65 /* OSSBolts.m */,
+				8E6616911CEC112B00068E65 /* OSSCancellationToken.h */,
+				8E6616921CEC112B00068E65 /* OSSCancellationToken.m */,
+				8E6616931CEC112B00068E65 /* OSSCancellationTokenRegistration.h */,
+				8E6616941CEC112B00068E65 /* OSSCancellationTokenRegistration.m */,
+				8E6616951CEC112B00068E65 /* OSSCancellationTokenSource.h */,
+				8E6616961CEC112B00068E65 /* OSSCancellationTokenSource.m */,
+				8E6616971CEC112B00068E65 /* OSSExecutor.h */,
+				8E6616981CEC112B00068E65 /* OSSExecutor.m */,
+				8E6616991CEC112B00068E65 /* OSSTask.h */,
+				8E66169A1CEC112B00068E65 /* OSSTask.m */,
+				8E66169B1CEC112B00068E65 /* OSSTaskCompletionSource.h */,
+				8E66169C1CEC112B00068E65 /* OSSTaskCompletionSource.m */,
+			);
+			path = OSSTask;
+			sourceTree = "<group>";
+		};
+		8ECDE2031CEB02E000BB8BD5 = {
+			isa = PBXGroup;
+			children = (
+				8ECDE20E1CEB02E000BB8BD5 /* react-native-ali-oss */,
+				8ECDE20D1CEB02E000BB8BD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ECDE20D1CEB02E000BB8BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ECDE20C1CEB02E000BB8BD5 /* libRCTAliyunOSS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ECDE20E1CEB02E000BB8BD5 /* react-native-ali-oss */ = {
+			isa = PBXGroup;
+			children = (
+				8E6616801CEC112B00068E65 /* OSSClient.h */,
+				8E6616811CEC112B00068E65 /* OSSClient.m */,
+				8E6616821CEC112B00068E65 /* OSSCompat.h */,
+				8E6616831CEC112B00068E65 /* OSSCompat.m */,
+				8E6616841CEC112B00068E65 /* OSSDefine.h */,
+				8E6616851CEC112B00068E65 /* OSSHttpdns.h */,
+				8E6616861CEC112B00068E65 /* OSSHttpdns.m */,
+				8E6616871CEC112B00068E65 /* OSSLog.h */,
+				8E6616881CEC112B00068E65 /* OSSLog.m */,
+				8E6616891CEC112B00068E65 /* OSSModel.h */,
+				8E66168A1CEC112B00068E65 /* OSSModel.m */,
+				8E66168B1CEC112B00068E65 /* OSSNetworking.h */,
+				8E66168C1CEC112B00068E65 /* OSSNetworking.m */,
+				8E66168D1CEC112B00068E65 /* OSSService.h */,
+				8E66168E1CEC112B00068E65 /* OSSTask */,
+				8E66169D1CEC112B00068E65 /* OSSUtil.h */,
+				8E66169E1CEC112B00068E65 /* OSSUtil.m */,
+				8E66169F1CEC112B00068E65 /* OSSXMLDictionary.h */,
+				8E6616A01CEC112B00068E65 /* OSSXMLDictionary.m */,
+				8ECDE20F1CEB02E000BB8BD5 /* RCTAliyunOSS.h */,
+				8ECDE2111CEB02E000BB8BD5 /* RCTAliyunOSS.m */,
+			);
+			path = "react-native-ali-oss";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ECDE20B1CEB02E000BB8BD5 /* RCTAliyunOSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECDE2151CEB02E000BB8BD5 /* Build configuration list for PBXNativeTarget "RCTAliyunOSS" */;
+			buildPhases = (
+				8ECDE2081CEB02E000BB8BD5 /* Sources */,
+				8ECDE2091CEB02E000BB8BD5 /* Frameworks */,
+				8ECDE20A1CEB02E000BB8BD5 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTAliyunOSS;
+			productName = "react-native-ali-oss";
+			productReference = 8ECDE20C1CEB02E000BB8BD5 /* libRCTAliyunOSS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ECDE2041CEB02E000BB8BD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Arthur;
+				TargetAttributes = {
+					8ECDE20B1CEB02E000BB8BD5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8ECDE2071CEB02E000BB8BD5 /* Build configuration list for PBXProject "react-native-ali-oss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8ECDE2031CEB02E000BB8BD5;
+			productRefGroup = 8ECDE20D1CEB02E000BB8BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ECDE20B1CEB02E000BB8BD5 /* RCTAliyunOSS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ECDE2081CEB02E000BB8BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6616AE1CEC112B00068E65 /* OSSUtil.m in Sources */,
+				8E6616A61CEC112B00068E65 /* OSSNetworking.m in Sources */,
+				8E6616AC1CEC112B00068E65 /* OSSTask.m in Sources */,
+				8E6616A11CEC112B00068E65 /* OSSClient.m in Sources */,
+				8E6616A41CEC112B00068E65 /* OSSLog.m in Sources */,
+				8E6616A31CEC112B00068E65 /* OSSHttpdns.m in Sources */,
+				8E6616A81CEC112B00068E65 /* OSSCancellationToken.m in Sources */,
+				8E6616A91CEC112B00068E65 /* OSSCancellationTokenRegistration.m in Sources */,
+				8E6616A21CEC112B00068E65 /* OSSCompat.m in Sources */,
+				8E6616AF1CEC112B00068E65 /* OSSXMLDictionary.m in Sources */,
+				8ECDE2121CEB02E000BB8BD5 /* RCTAliyunOSS.m in Sources */,
+				8E6616AD1CEC112B00068E65 /* OSSTaskCompletionSource.m in Sources */,
+				8E6616AB1CEC112B00068E65 /* OSSExecutor.m in Sources */,
+				8E6616AA1CEC112B00068E65 /* OSSCancellationTokenSource.m in Sources */,
+				8E6616A71CEC112B00068E65 /* OSSBolts.m in Sources */,
+				8E6616A51CEC112B00068E65 /* OSSModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8ECDE2131CEB02E000BB8BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ECDE2141CEB02E000BB8BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ECDE2161CEB02E000BB8BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/react-native-ali-oss",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherit)",
+					"$(SRCROOT)/../../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		8ECDE2171CEB02E000BB8BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/react-native-ali-oss",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherit)",
+					"$(SRCROOT)/../../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ECDE2071CEB02E000BB8BD5 /* Build configuration list for PBXProject "react-native-ali-oss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECDE2131CEB02E000BB8BD5 /* Debug */,
+				8ECDE2141CEB02E000BB8BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECDE2151CEB02E000BB8BD5 /* Build configuration list for PBXNativeTarget "RCTAliyunOSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECDE2161CEB02E000BB8BD5 /* Debug */,
+				8ECDE2171CEB02E000BB8BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ECDE2041CEB02E000BB8BD5 /* Project object */;
+}

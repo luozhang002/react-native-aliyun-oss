@@ -1,0 +1,24 @@
+{
+  "name": "ls",
+  "version": "0.0.1",
+  "description": "A simple wrapper for OSS putObject api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whtoo/react-native-aliyun-oss.git"
+  },
+  "keywords": [
+    "React-native",
+    "ali",
+    "oss"
+  ],
+  "author": "whtoo@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whtoo/react-native-aliyun-oss/issues"
+  },
+  "homepage": "https://github.com/whtoo/react-native-aliyun-oss#readme"
+}

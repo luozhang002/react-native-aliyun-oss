@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "81f6a158-0f2a-dd4d-ba16-389818f95898++6430",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "81f6a158-0f2a-dd4d-ba16-389818f95898++6430" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "81f6a158-0f2a-dd4d-ba16-389818f95898++6430" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E4E3308A-4A15-407C-9278-0838B2E4F953",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "81f6a158-0f2a-dd4d-ba16-389818f95898++6430" : "newstarbuy\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "react-native-ali-oss",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "frontend\/RN\/node_modules\/react-native-ali-oss\/ios\/react-native-ali-oss\/react-native-ali-oss.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.231",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81f6a158-0f2a-dd4d-ba16-389818f95898++6430"
+    }
+  ]
+}
